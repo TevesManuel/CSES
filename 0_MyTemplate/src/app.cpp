@@ -5,6 +5,19 @@
 //Types
 typedef long long ll;
 typedef long double ld;
+typedef int8_t   i8;          // -128 a 127
+typedef uint8_t  u8;          // 0 a 255
+typedef int16_t  i16;         // -32.768 a 32.767
+typedef uint16_t u16;         // 0 a 65.535
+typedef int32_t  i32;         // -2.147.483.648 a 2.147.483.647
+typedef uint32_t u32;         // 0 a 4.294.967.295
+typedef int64_t  i64;         // -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
+typedef uint64_t u64;         // 0 a 18.446.744.073.709.551.615
+typedef __int128_t  i128;     // -(2^127) a 2^127 - 1
+typedef __uint128_t u128;     // 0 a 2^128 - 1
+typedef float       f32;      // ±3.402823466 × 10^38
+typedef double      f64;      // ±1.797693134 × 10^308
+typedef __float128  f128;     // ±1.189731495 × 10^4932
 
 //Constants
 const int inf = 1 << 30;
