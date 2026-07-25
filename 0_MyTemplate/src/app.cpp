@@ -20,8 +20,9 @@ typedef double      f64;      // ±1.797693134 × 10^308
 typedef __float128  f128;     // ±1.189731495 × 10^4932
 
 //Constants
-const int inf = 1 << 30;
+const i32 inf = 1 << 30;
 // const ll inf = 1LL << 60;
+const i32 mod = 1e9+7;
 
 //Iterative utils
 #define forAB(i, a, b) for(ll i = (a); i < (ll)(b); i++)
@@ -34,16 +35,16 @@ const int inf = 1 << 30;
 
 //Debug utils
 #define dbg(x) std::cout << #x << " = " << (x) << ", "
-#define dbgn(x) std::cout << #x << " = " << (x) << std::endl
+#define dbgln(x) std::cout << #x << " = " << (x) << std::endl
 #define lineN(n) forN(teves, (n)) std::cout << "="; std::cout << std::endl
 #define line lineN(60)
 
 #define TEVES std::ios::sync_with_stdio(0);std::cin.tie(0);std::cout.tie(0);
 
-int main() {
+i32 main() {
     TEVES
 
-    int n, k;
+    i32 n, k;
     std::cin >> n >> k;
 
     dbg(n);
