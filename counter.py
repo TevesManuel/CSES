@@ -28,10 +28,11 @@ for folder in Path(".").iterdir():
         continue
 
     problems = len(list(folder.iterdir()))
-
-    print(f"- {folder.name[2:].replace('_', ' '):<25} {problems:>22}")
-
     counter += problems
+
+    name = folder.name[2:].replace("_", " ")
+
+    print(f"- {name:<45} {problems:>5}")
 
 line(60)
 print("### Total:", counter)
