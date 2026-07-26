@@ -10,7 +10,6 @@ print("""# CSES Problem Set
 Acá voy registrando mi progreso y soluciones en C++, organizadas por categoría.
 
 ## Progreso
-
 """)
 
 
@@ -30,7 +29,7 @@ for folder in Path(".").iterdir():
 
     problems = len(list(folder.iterdir()))
 
-    print(f"- {folder.name.replace('_', ' '):<25} {problems:>22}")
+    print(f"- {folder.name[2:].replace('_', ' '):<25} {problems:>22}")
 
     counter += problems
 
