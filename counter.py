@@ -17,6 +17,9 @@ line(60)
 print("### Problemas por categoría:")
 line(60)
 
+print("| Categoría | Problemas |")
+print("|:----------|----------:|")
+
 counter = 0
 
 for folder in Path(".").iterdir():
@@ -32,7 +35,7 @@ for folder in Path(".").iterdir():
 
     name = folder.name[2:].replace("_", " ")
 
-    print(f"- {name:<45} {problems:>5}")
+    print(f"| {name} | {problems} |")
 
 line(60)
 print("### Total:", counter)
