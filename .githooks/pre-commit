@@ -1,9 +1,0 @@
-#!/bin/sh
-
-echo "Updating README.md..."
-
-python3 counter.py > README.md
-
-git add README.md
-
-echo "README.md updated."
