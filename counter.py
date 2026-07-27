@@ -1,7 +1,7 @@
 from pathlib import Path
 
 def line(n):
-    print("-" * n)
+    print("=" * n)
 
 print("""# CSES Problem Set
 
