@@ -44,10 +44,10 @@ const i32 mod = 1e9+7;
 i32 main() {
     TEVES
 
-    i32 n;
+    i64 n;
     std::cin >> n;
 
-    i32 s = (n*(n+1))/2;
+    i64 s = (n*(n+1))/2;
 
     if(s % 2 != 0) {
         std::cout << "NO\n";
@@ -55,17 +55,29 @@ i32 main() {
     }
     std::cout << "YES\n";
 
-    i32 target = s/2;
+    // dbgln(s);
 
-    std::vector<i32> v1;
-    std::vector<i32> v2;
+    i64 target = s/2;
+
+    std::vector<i64> v1;
+    std::vector<i64> v2;
+
+    // dbgln(target);
 
     //Greedy
-    for(i32 i = n; i >= 1; i--) {
+    for(i64 i = n; i >= 1; i--) {
         if(i <= target) {
+            // dbg("v1");
+            // dbg(i);
+            // dbg(target);
             v1.push_back(i);
             target -= i;
+            // dbgln(target);            
         } else {
+            // dbg("v2");
+            // dbg(i);
+            // dbg(target);
+            // dbgln(target);            
             v2.push_back(i);
         }
     }

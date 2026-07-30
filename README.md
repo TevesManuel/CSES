@@ -11,9 +11,9 @@ Acá voy registrando mi progreso y soluciones en C++, organizadas por categoría
 ------------------------------------------------------------
 | Categoría | Problemas |
 |:----------|----------:|
-| Introductory Problems | 6 |
+| Introductory Problems | 7 |
 | Sorting And Searching | 2 |
 | Dynamic Programming | 5 |
 | Graph Algorithms | 3 |
 ------------------------------------------------------------
-### Total: 16
+### Total: 17
