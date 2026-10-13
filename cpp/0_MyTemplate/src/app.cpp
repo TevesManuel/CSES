@@ -23,6 +23,7 @@ typedef __float128  f128;     // ±1.189731495 × 10^4932
 const i32 inf = 1 << 30;
 // const ll inf = 1LL << 60;
 const i32 mod = 1e9+7;
+#define endl '\n'
 
 //Iterative utils
 #define forAB(i, a, b) for(ll i = (a); i < (ll)(b); i++)
@@ -35,8 +36,8 @@ const i32 mod = 1e9+7;
 
 //Debug utils
 #define dbg(x) std::cout << #x << " = " << (x) << ", "
-#define dbgln(x) std::cout << #x << " = " << (x) << std::endl
-#define lineN(n) forN(teves, (n)) std::cout << "="; std::cout << std::endl
+#define dbgln(x) std::cout << #x << " = " << (x) << endl
+#define lineN(n) forN(teves, (n)) std::cout << "="; std::cout << endl
 #define line lineN(60)
 
 #define TEVES std::ios::sync_with_stdio(0);std::cin.tie(0);std::cout.tie(0);
@@ -48,10 +49,10 @@ i32 main() {
     std::cin >> n >> k;
 
     dbg(n);
-    dbgn(k);
+    dbgln(k);
     line;
     dbg(n);
-    dbgn(k);
+    dbgln(k);
 
     return 0;
 }
