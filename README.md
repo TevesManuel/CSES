@@ -4,8 +4,7 @@
 
 Acá voy registrando mi progreso y soluciones en C++ y Rust, organizadas por categoría.
 
-## Progreso
-
+### Progreso
 ------------------------------------------------------------
 ### C++
 ------------------------------------------------------------
@@ -28,4 +27,3 @@ Acá voy registrando mi progreso y soluciones en C++ y Rust, organizadas por cat
 ### Total Rust: 1
 
 ------------------------------------------------------------
-### Total Global: 26

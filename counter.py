@@ -97,8 +97,7 @@ def generate_markdown(root: Path) -> tuple[str, int]:
         "",
         f"Acá voy registrando mi progreso y soluciones en {lang_str}, organizadas por categoría.",
         "",
-        "## Progreso",
-        "",
+        "### Progreso",
     ]
 
     total_global = 0
