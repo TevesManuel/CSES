@@ -10,12 +10,12 @@ Acá voy registrando mi progreso y soluciones en C++ y Rust, organizadas por cat
 ------------------------------------------------------------
 | Categoría | Problemas |
 |:----------|----------:|
-| Introductory Problems | 13 |
-| Sorting And Searching | 2 |
+| Introductory Problems | 15 |
+| Sorting And Searching | 7 |
 | Dynamic Programming | 7 |
 | Graph Algorithms | 3 |
 ------------------------------------------------------------
-### Total C++: 25
+### Total C++: 32
 
 ------------------------------------------------------------
 ### Rust
@@ -27,3 +27,4 @@ Acá voy registrando mi progreso y soluciones en C++ y Rust, organizadas por cat
 ### Total Rust: 1
 
 ------------------------------------------------------------
+### Total Global: 33
